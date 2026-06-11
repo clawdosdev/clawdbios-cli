@@ -1,0 +1,41 @@
+{
+  "name": "clawdbios",
+  "version": "0.3.0",
+  "description": "ClawdBIOS — the firmware layer for autonomous agents, in your terminal. Create agents, load a character, and chat with them. Boot. Verify. Execute.",
+  "type": "module",
+  "bin": {
+    "clawdbios": "src/index.mjs"
+  },
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node src/index.mjs"
+  },
+  "keywords": [
+    "clawdbios",
+    "clawdos",
+    "cli",
+    "agent",
+    "ai",
+    "firmware",
+    "base",
+    "fal",
+    "claude"
+  ],
+  "license": "MIT",
+  "homepage": "https://clawdos.space/clawdbios",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clawdosdev/clawdbios-cli.git"
+  },
+  "author": "clawdosdev",
+  "dependencies": {
+    "@fal-ai/client": "^1.2.1",
+    "chalk": "^5.3.0"
+  }
+}
